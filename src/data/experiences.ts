@@ -137,7 +137,7 @@ export const experiences: readonly Experience[] = [
       "Delivered web application features and database work on ASP.NET MVC products, including data access design and participation in requirements and sprint cycles.",
     context:
       "First stretch at Redes de Control, focused on web delivery and SQL. This is where I built the MVC and database habits I later used on larger client platforms.",
-    skills: ["ASP.NET MVC", "JavaScript", "SQL", "LINQ", "Scrum","C#","linQ","ORM","C#","Javascript"],
+    skills: ["ASP.NET MVC", "JavaScript", "SQL", "LINQ", "Scrum","linQ","ORM","C#","Javascript"],
     highlights: [
       "Built web application features with ASP.NET MVC and JavaScript.",
       "Designed and optimized SQL procedures, views, and LINQ-based data access for application screens and reports.",
