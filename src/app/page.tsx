@@ -17,7 +17,16 @@ export default function Home() {
         </header>
 
         <p className="mt-12 max-w-xl text-lg leading-relaxed text-muted">
-        Senior Full Stack Engineer with 10+ years of experience designing, building, and scaling high-performance web applications in production environments. Specialized in cloud-native architectures, RESTful API design, and modern frontend development. Proven ability to deliver end-to-end solutions from system design through deployment and optimization with strong ownership and technical rigor. Brings a customer-first mindset, combining deep engineering expertise with exceptional client focus, stakeholder communication, and enterprise support experience to deliver reliable, scalable products that drive measurable business impact.
+          Senior Full Stack Engineer with 10+ years of experience designing,
+          building, and scaling high-performance web applications in production
+          environments. Specialized in cloud-native architectures, RESTful API
+          design, and modern frontend development. Proven ability to deliver
+          end-to-end solutions from system design through deployment and
+          optimization with strong ownership and technical rigor. Brings a
+          customer-first mindset, combining deep engineering expertise with
+          exceptional client focus, stakeholder communication, and enterprise
+          support experience to deliver reliable, scalable products that drive
+          measurable business impact.
         </p>
 
         <nav className="mt-16 flex flex-wrap gap-6">

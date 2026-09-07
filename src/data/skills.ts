@@ -1,0 +1,21 @@
+export const skills: readonly string[] = [
+  ".NET Framework",
+  "JavaScript",
+  "TypeScript",
+  "Basic Python",
+  "Node.js",
+  "fastify",
+  "ReactJS",
+  "ASP.NET MVC",
+  "Scrum",
+  "Git / GitHub",
+  "RESTful APIs",
+  "AWS (Lambda, DynamoDB, S3, API Gateway, RDS, SQS,Step Functions, Cloudwatch Events)",
+  "Microservices",
+  "CloudFormation",
+  "HubSpot CRM",
+  "Azure DevOps",
+  "Angular",
+  "LLms: Claude",
+  "service Integrations"
+];
