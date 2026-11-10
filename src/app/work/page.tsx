@@ -1,5 +1,5 @@
 import { ExperienceArticle } from "@/components/experience-article";
-import { PageBackLink } from "@/components/page-back-link";
+import { InnerPageChrome } from "@/components/inner-page-chrome";
 import { ProjectArticle } from "@/components/project-article";
 import { experiences } from "@/data/experiences";
 import { projects } from "@/data/projects";
@@ -8,7 +8,7 @@ export default function WorkPage() {
   return (
     <div className="min-h-screen bg-background">
       <main className="mx-auto max-w-2xl px-6 py-24 sm:px-8">
-        <PageBackLink />
+        <InnerPageChrome currentPath="/work" />
 
         <h1 className="font-heading text-3xl font-semibold tracking-tight">
           Work

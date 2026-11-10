@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { SiteNav } from "@/components/site-nav";
 
 export default function Home() {
   return (
@@ -29,26 +29,7 @@ export default function Home() {
           measurable business impact.
         </p>
 
-        <nav className="mt-16 flex flex-wrap gap-6">
-          <Link
-            href="/resume"
-            className="group inline-flex items-center gap-2 text-foreground transition-colors hover:text-accent"
-          >
-            <span className="font-medium">Resume</span>
-            <span className="text-muted transition-transform group-hover:translate-x-1">
-              →
-            </span>
-          </Link>
-          <Link
-            href="/work"
-            className="group inline-flex items-center gap-2 text-foreground transition-colors hover:text-accent"
-          >
-            <span className="font-medium">Work</span>
-            <span className="text-muted transition-transform group-hover:translate-x-1">
-              →
-            </span>
-          </Link>
-        </nav>
+        <SiteNav currentPath="/" className="mt-16" />
       </main>
     </div>
   );
