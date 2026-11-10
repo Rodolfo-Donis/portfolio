@@ -1,5 +1,5 @@
 import { ExperienceArticle } from "@/components/experience-article";
-import { PageBackLink } from "@/components/page-back-link";
+import { InnerPageChrome } from "@/components/inner-page-chrome";
 import { SkillChip } from "@/components/skill-chip";
 import { experiences } from "@/data/experiences";
 import { skills } from "@/data/skills";
@@ -8,7 +8,7 @@ export default function ResumePage() {
   return (
     <div className="min-h-screen bg-background">
       <main className="mx-auto max-w-2xl px-6 py-24 sm:px-8">
-        <PageBackLink />
+        <InnerPageChrome currentPath="/resume" />
 
         <header className="mb-12 border-b border-zinc-200 pb-8 dark:border-zinc-800">
           <h1 className="font-heading text-3xl font-semibold tracking-tight">
